@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+xmlns:gx="http://www.google.com/kml/ext/2.2"
+xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<open>1</open>
+<visibility>1</visibility>
+<name><![CDATA[Mahakali Caves Rd, Jogeshwari East]]></name>
+<atom:author><atom:name><![CDATA[Created by Google My Tracks on Android.]]></atom:name></atom:author>
+<Style id="track">
+<LineStyle><color>7f0000ff</color><width>4</width></LineStyle>
+<IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href></Icon>
+</IconStyle>
+</Style>
+<Style id="start"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="end"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="statistics"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="waypoint"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Schema id="schema">
+<gx:SimpleArrayField name="power" type="int">
+<displayName><![CDATA[Power (W)]]></displayName>
+</gx:SimpleArrayField>
+<gx:SimpleArrayField name="cadence" type="int">
+<displayName><![CDATA[Cadence (rpm)]]></displayName>
+</gx:SimpleArrayField>
+<gx:SimpleArrayField name="heart_rate" type="int">
+<displayName><![CDATA[Heart rate (bpm)]]></displayName>
+</gx:SimpleArrayField>
+</Schema>
+<Placemark>
+<name><![CDATA[Mahakali Caves Rd, Jogeshwari East (Start)]]></name>
+<description><![CDATA[]]></description>
+<TimeStamp><when>2013-05-30T19:59:24.559Z</when></TimeStamp>
+<styleUrl>#start</styleUrl>
+<Point>
+<coordinates>72.868637,19.132321,-76.8873062133789</coordinates>
+</Point>
+</Placemark>
+<Placemark id="tour">
+<name><![CDATA[Mahakali Caves Rd, Jogeshwari East]]></name>
+<description><![CDATA[Home]]></description>
+<styleUrl>#track</styleUrl>
+<ExtendedData>
+<Data name="type"><value><![CDATA[walking]]></value></Data>
+</ExtendedData>
+<gx:MultiTrack>
+<altitudeMode>absolute</altitudeMode>
+<gx:interpolate>1</gx:interpolate>
+<gx:Track>
+<when>2013-05-30T19:59:24.559Z</when>
+<gx:coord>72.868637 19.132321 -76.8873062133789</gx:coord>
+<when>2013-05-30T19:59:25.559Z</when>
+<gx:coord>72.868644 19.132589 -102.04148864746094</gx:coord>
+<when>2013-05-30T19:59:26.559Z</when>
+<gx:coord>72.868652 19.132672 -110.10382843017578</gx:coord>
+<when>2013-05-30T19:59:27.559Z</when>
+<gx:coord>72.868592 19.132668 -100.66189575195313</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+</gx:MultiTrack>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mahakali Caves Rd, Jogeshwari East (End)]]></name>
+<description><![CDATA[Created by Google My Tracks on Android.
+
+Name: Mahakali Caves Rd, Jogeshwari East
+Activity type: walking
+Description: Home
+Total distance: 0.05 km (0.0 mi)
+Total time: 00:43
+Moving time: 00:03
+Average speed: 3.77 km/h (2.3 mi/h)
+Average moving speed: 54.17 km/h (33.7 mi/h)
+Max speed: 0.00 km/h (0.0 mi/h)
+Average pace: 15.93 min/km (25.6 min/mi)
+Average moving pace: 1.11 min/km (1.8 min/mi)
+Fastest pace: 0.00 min/km (0.0 min/mi)
+Max elevation: -77 m (-252 ft)
+Min elevation: -97 m (-320 ft)
+Elevation gain: 0 m (0 ft)
+Max grade: 0 %
+Min grade: 0 %
+Recorded: 5/31/2013 01:28
+]]></description>
+<TimeStamp><when>2013-05-30T19:59:27.559Z</when></TimeStamp>
+<styleUrl>#end</styleUrl>
+<Point>
+<coordinates>72.868592,19.132668,-100.66189575195313</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
